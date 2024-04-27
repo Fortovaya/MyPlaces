@@ -12,7 +12,7 @@ class MainTableViewController: UITableViewController {
     let restaurantNames = [
         "Burlesque", "Старая Башня", "Бункер-42","Сварня", "Balzi Rossi", "Steak It Easy", "Lalaland"
     ]
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
