@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--My Places-->
         <scene sceneID="woH-jD-yps">
             <objects>
                 <tableViewController id="GYH-KD-7KU" customClass="MainTableViewController" customModule="MyPlaces" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                             <outlet property="delegate" destination="GYH-KD-7KU" id="WwK-bP-v86"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="nDe-O9-vwq"/>
+                    <navigationItem key="navigationItem" title="My Places" id="nDe-O9-vwq"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UgW-Y7-yfD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,6 +44,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0gi-TY-sm5">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="24"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="GYH-KD-7KU" kind="relationship" relationship="rootViewController" id="yws-Y3-p0Q"/>
